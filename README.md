@@ -14,6 +14,10 @@ character in "foo".
 Entire code is in one file main.java
 
 Compile it using "javac main.java"
+
 Run it as "java main foo bar"
 
 The program accepts two arguments s1 and s2.
+
+The program prints back true if there exists a one to one character mapping from s1 to s2
+and prints false if there does not exist a one to one character mapping from s2 to s2.
